@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600;1,700;1,900&display=swap');
+
+body {
+    background-image: url("/img/icon-pattern-backgrounds-53906.jpg");
+}
+
+.nav-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    font-size:15pt;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin-left: 5rem;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgba(157, 149, 233, 0);
+    background: linear-gradient(rgba(182, 186, 197, 0.476) 0 0) left / var(--p,0) no-repeat;
+    transition: .4s,background-position 0s;
+  }
+  .nav-item:hover {
+    --p: 100%;
+  background-position: right;
+  }
+  .navbar-light .navbar-nav .nav-link {
+  color: #010b12;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#076eec;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light{
+    background-color:rgba(121, 188, 233, 0.467);
+}
+.navbar-light .navbar-toggler{
+    border: 0px solid;
+    color: #9fa6ae;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("/img/8665141_burger_food_icon.svg");
+}
+#row-1{
+      margin-top: 2rem;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 40vh;
+}
+#row-2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 20vh;
+}
+
+#col-1{
+    color: rgb(25, 159, 207);
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 1rem;
+}
+#col-2{
+    color: rgb(20, 138, 161);
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 1rem;
+}
